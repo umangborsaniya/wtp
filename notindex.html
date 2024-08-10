@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+        body {
+            font-family: "Baloo Bhai 2", sans-serif;
+            color: maroon;
+            padding: 0%;
+            margin: 0px;
+            background: url('pages/home.jpg');
+        }
+
+        .left {
+            left: 32px;
+            position: absolute;
+            display: block;
+            /*border: 2px solid red;*/
+            left: 30px;
+            top: 15%;
+        }
+
+        .mid {
+            /*border: 2px solid green;*/
+            display: inline block;
+            width: 39%;
+            margin: 30px auto;
+        
+        }
+
+        .right {
+            right: 32px;
+            position: absolute;
+            display: inline-block;
+            /*border: 2px solid yellow*/;
+            top: 30px;
+
+        }
+
+        .navbar {
+
+            display: inline-block;
+            
+        }
+
+        .navbar li {
+
+            font-size: 25px;
+            display: inline-block;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 12px 36px;
+            color: maroon;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .btn {
+            color: maroon;
+            background-color: rgb(153 205 50 / 0%);
+            font-size: 25px;
+            border-radius: 30px;
+            padding: 10px 45px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: white;
+            background-color: black;
+            font-size: 22px;
+        }
+
+        .left img {
+            width: 150px;
+            margin: 14px 78px;
+        }
+
+        .name {
+            color: rgb(1 2 0);
+            font-size: 25px;
+        }
+        .container{
+            display: inline-block;
+            margin: 85px 195px;
+            padding: 30px 155px;
+            /*border: 2px solid red;*/
+            font-size: 22px;
+            color: rgb(208 193 85);
+        }
+        .container button{
+            display: inline-block;
+            border: 2px solid rgb(60 75 55);
+            font-size: 22px;
+            color: white    ;
+            font-family: "Baloo Bhai 2", sans-serif;
+            background-color: rgb(60 75 55);
+            margin: 0px 0px;
+            padding: 10px 160px;
+            border-radius: 22px;
+            cursor: pointer;
+        }
+        .buy{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <div class="name">
+                <strong>Mama Ni Maher Mini Oil Mill </div>
+            <img src="/pages/logo.png">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="HOME.html" class="active">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Why us?</h1>
+        <h3>The min reason to choose us is ...</h3>
+        <h3>We Belive in 'Quality' over 'Quantity'</h3>
+        <button><strong><a href="booking.html" class="buy">let's Buy</a></strong></button>
+    </div>
+</body>
+
+</html>
